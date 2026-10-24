@@ -113,7 +113,7 @@ a:active {
 
 a[href^="https://"] {
     padding-right: 1.6rem;
-    background-image: url('https://raw.githubusercontent.com/nina-mir/CSC317-assignments/main/typesetting/external-link-52.png');
+    background-image: url('external-link-52.png');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 1.2rem;

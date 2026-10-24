@@ -87,3 +87,35 @@ section h2 + p {
     text-indent: 1.25rem;
 }
 
+/* links */
+a {
+    color: #8b4141;
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    outline: none;
+}
+
+a:visited {
+    color: #704b68;
+}
+
+a:hover,
+a:focus {
+    color: #582929;
+    background-color: #f1dfdf;
+    text-decoration: none;
+}
+
+a:active {
+    color: #fffdf9;
+    background-color: #8b4141;
+}
+
+a[href^="https://"] {
+    padding-right: 1.6rem;
+    background-image: url('https://raw.githubusercontent.com/nina-mir/CSC317-assignments/main/typesetting/external-link-52.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 1.2rem;
+}
+

@@ -138,3 +138,34 @@ li::marker {
     color: #8b4141;
 }
 
+/* navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2.4rem 0;
+}
+
+nav li {
+    margin-bottom: 1.2rem;
+}
+
+nav a {
+    display: block;
+    padding: 1.4rem 1rem;
+    border: 1px solid #a66;
+    font-family: 'Roboto Slab', Georgia, serif;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+nav a:hover,
+nav a:focus {
+    border-color: #582929;
+    background-color: #f1dfdf;
+    box-shadow: inset 0 0 0 1px #582929;
+}
+
+nav a:active {
+    color: #fffdf9;
+    background-color: #8b4141;
+}

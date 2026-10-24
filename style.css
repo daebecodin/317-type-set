@@ -119,3 +119,22 @@ a[href^="https://"] {
     background-size: 1.2rem;
 }
 
+/* lists */
+ul,
+ol {
+    margin: 1.6rem 0;
+    padding-left: 2.4rem;
+}
+
+li {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li::marker {
+    color: #8b4141;
+}
+
